@@ -15,13 +15,14 @@ ORANGE COLOR #e67e22;
 	box-sizing: border-box;
 }
 
-html {
+html,body {
 	background: #fff;
 	color: #555;
 	font-family: 'lato', 'Arial', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
 	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
 }
 
 .clearfix {zoom: 1}
