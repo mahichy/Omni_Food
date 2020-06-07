@@ -294,9 +294,7 @@ header {
 
 	margin-top: 18px;
 }
-.sticky .nav {
-	background: #ddd;
-}
+
 
 .sticky .logo {display: none;}
 .sticky .logo-black {display: block;}
@@ -650,6 +648,19 @@ footer p {
 	margin-top: 20px;
 }
 
+
+/*----------------------------------*/
+/*Animations*/
+/*----------------------------------*/
+
+.js--wp-1 {
+	opacity: 0;
+
+}
+
+.js--wp-1 .animated {
+	opacity: 1;
+}
 
 
 
