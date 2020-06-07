@@ -227,13 +227,21 @@ header {
 	transform: translate(-50%, -50%);
 }
 
-.logo {
+.logo, {
 	height: 100px;
 	width: auto;
 	float: left;
 	margin-top: 20px;
 }
 
+.logo-black {display: none;
+		height: 50px;
+		width: auto;
+		float: left;
+		margin-top: 5px 0;
+		}
+
+/* main-nav       */
 .main-nav {
 	float: right;
 	list-style: none;
@@ -247,6 +255,7 @@ header {
 
 .main-nav li a:link,
 .main-nav li a:visited {
+	padding: 8px 0;
 	color: #fff; 
 	text-decoration: none;
 	text-transform: uppercase;
@@ -262,9 +271,29 @@ header {
 
 
 
+/* Sticky navi */
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #fff; 
+}
 
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+	color: #555; 
+	padding: 16px 0;
+	box-shadow: 0 2px 2px #efefef;
+	
+}
 
+.main-nav {
+	margin-top: 18px;
+}
 
+.sticky .logo {display: none;}
+.sticky .logo-black {display: block;}
 
 /*----------------------------------*/
 /*FEACHERS*/
